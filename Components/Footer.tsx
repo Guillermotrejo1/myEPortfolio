@@ -12,10 +12,10 @@ export const Footer = () => {
             className="filter invert" src="/logo.svg" alt="Logo" />
           </figure>
           <div className="flex text-lg mb-4 gap-4">
-            <Link className="text-white gap-4" href="">GitHub</Link>
-            <Link className="text-white gap-4" href="">LinkedIn</Link>
-            <Link className="text-white gap-4" href="">Contact</Link>
-            <Link className="text-white gap-4" href="">Resume</Link>
+            <Link className="text-white gap-4" href="https://github.com/Guillermotrejo1">GitHub</Link>
+            <Link className="text-white gap-4" href="https://www.linkedin.com/in/guillermo-trejo-8a5797318">LinkedIn</Link>
+            <Link className="text-white gap-4" href="/">Contact</Link>
+            <Link className="text-white gap-4" href="/">Resume</Link>
           </div>
           <div className="text-white text-sm">Copyright © 2024 Guillermo Trejo</div>
         </div>
