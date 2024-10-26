@@ -1,37 +1,40 @@
-import Image from "next/image"
-import { FaGithub } from "react-icons/fa6"
-import { FaLinkedin } from "react-icons/fa6"
-import { FaFileAlt } from "react-icons/fa"
+import Image from "next/image";
+import Link from "next/link";
+import { FaFilePdf, FaGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
 
 export const Hero = () => {
-    return (
-        <header className="flex justify-center h-screen mb-8">
-            <div className="max-w-[600px]">
-                <h1 className="text-blue-500 text-[120px] text-left"><span className="text-black">Hey,</span> I&apos;m</h1>
-                <h1 className="text-blue-500 text-[120px] text-left">Guillermo</h1>
-                <p className="text-gray-500 text-lg">Im a Frontend Software Engineer with a strong passion for building web applications with great user experiences.
-                Here&apos;s a bit more about me.</p>
-            
-            <div className="flex mt-4 space-x-2">
-                <a className="" href="https://github.com/Guillermotrejo1">
-                <FaGithub className="text-white rounded bg-blue-500 text-2xl" />
-                </a>
-                <a className="" href="https://www.linkedin.com/in/guillermo-trejo-8a5797318">
-                <FaLinkedin className="text-white rounded bg-blue-500 text-2xl" />
-                </a>
-                <a className="" href="">
-                    <FaFileAlt className="text-white rounded bg-blue-500 text-2xl" />
-                </a>
-            </div>
-            </div>
-            <figure className="flex">
-                <Image 
-                src="/me.jpg"
-                width={850}
-                height={850}
-                className="rounded-full"
-                 alt="" />
-            </figure>
-        </header>
-    )
-}
+  return (
+    <section id="home" className="py-5">
+      <div className="container flex flex-wrap items-center justify-center mx-auto mt-10 md:px-12 md:flex-row mb-6">
+        <div className="mb-14 lg:mb-0 lg:w-1/2">
+          <h1
+            className="max-w-xl text-[2.9rem] lg:text-[8rem] leading-none text-gray-900 font-extrabold font-sans text-center lg:text-5xl
+         lg:text-left lg:leading-tight mb-5"
+          >
+            <span className="text-green-500">Hey,</span> Im Guillermo
+          </h1>
+          <p className="max-w-xl text-center text-gray-500 lg:text-left lg:max-w-md lg:text-2xl mb-4">
+            Im a <span className="text-green-500">Frontend Software Engineer</span> with a strong passion for building
+            web applications with great user experiences. Here&apos;s a bit more
+            <span className="text-green-500"> about me</span>.
+          </p>
+          <div className="flex text-xl gap-4 text-white">
+            <Link className="bg-green-500 p-2 rounded-lg" href="https://github.com/Guillermotrejo1"><FaGithub/></Link>
+            <Link className="bg-green-500 p-2 rounded-lg" href="https://www.linkedin.com/in/guillermo-trejo-8a5797318"><FaLinkedin/></Link>
+            <Link className="bg-green-500 p-2 rounded-lg" href=""><FaFilePdf /></Link>
+          </div>
+        </div>
+        <div className="lg:w-1/2">
+        <Image 
+         className="ml-4 rounded-full aspect-square"
+         src="/ME.jpg"
+         alt="Me"
+         width={500}
+         height={500}
+         />
+        </div>
+      </div>
+    </section>
+  );
+};
