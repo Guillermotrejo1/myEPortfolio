@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export const TechStack = () => {
   return (
-    <div className="w-full mb-10">
+    <div className="flex flex-col justify-center items-center w-full mb-10 p-6">
       <h1 className="flex justify-center text-3xl font-bold w-full mb-4 h-14">
         Tech Stack
       </h1>
-      <div className="flex flex-wrap justify-center gap-4">
+      <div className="flex flex-wrap justify-center items-center gap-4">
         <Image src="/html.png" alt="" width={100} height={100} />
         <Image src="/css.png" alt="" width={100} height={100} />
         <Image src="/React.png" alt="" width={100} height={100} />
@@ -15,6 +15,7 @@ export const TechStack = () => {
         <Image src="/redux.png" alt="" width={100} height={100} />
         <Image src="/tailwind.png" alt="" width={100} height={100} />
         <Image src="/nodejs.png" alt="" width={100} height={100} />
+        <Image src="/javascript.png" alt="" width={100} height={100} />
         <Image src="/typescript.png" alt="" width={100} height={100} />
         <Image
           src="/drizzle.png"

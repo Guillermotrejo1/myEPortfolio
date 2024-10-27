@@ -9,7 +9,7 @@ export const Projects = () => {
         Here are some of my{" "}
         <span className="text-green-500">projects</span>
       </h1>
-      <ul className="flex flex-wrap justify-center gap-4 mb-10">
+      <ul className="flex flex-wrap justify-center gap-4 mb-10 p-6">
         <li className="mr-4">
           <div className="mb-10 rounded-lg shadow-lg shadow-green-800">
             <Image src="/lingo.png" className="w-full" alt="Lingo" width={500} height={500} />
