@@ -2,7 +2,7 @@ import { Footer } from "@/Components/Footer";
 import { Hero } from "@/Components/Hero";
 import { Nav } from "@/Components/Nav";
 import { Projects } from "@/Components/Projects";
-
+import { Stack } from "@/Components/Stack";
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
     <Nav />
     <Hero/>
     <Projects />
+    <Stack />
     <Footer />
    </div>
   );
