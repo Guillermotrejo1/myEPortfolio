@@ -7,7 +7,7 @@ export const Hero = () => {
   return (
     <section id="home" className="py-5">
       <div className="container flex flex-wrap items-center justify-center mx-auto mt-10 md:px-12 md:flex-row mb-6">
-        <div className="mb-14 lg:mb-0 lg:w-1/2">
+        <div className="flex px-4 flex-col items-center sm:flex sm:flex-col sm:items-center mb-14 lg:mb-0 lg:w-1/2 lg:block">
           <h1
             className="max-w-xl text-[2.9rem] lg:text-[8rem] leading-none text-gray-900 font-extrabold font-sans text-center lg:text-5xl
          lg:text-left lg:leading-tight mb-5"
