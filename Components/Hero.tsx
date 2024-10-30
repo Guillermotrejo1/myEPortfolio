@@ -5,8 +5,8 @@ import { FaLinkedin } from "react-icons/fa6";
 
 export const Hero = () => {
   return (
-    <section id="home" className="py-5">
-      <div className="container flex flex-wrap items-center justify-center mx-auto mt-10 md:px-12 md:flex-row mb-6">
+    <section id="home" className="py-5 h-screen">
+      <div className="container flex flex-wrap items-center justify-center mx-auto md:px-12 md:flex-row mb-6">
         <div className="flex px-4 flex-col items-center sm:flex sm:flex-col sm:items-center mb-14 lg:mb-0 lg:w-1/2 lg:block">
           <h1
             className="max-w-xl text-[2.9rem] lg:text-[8rem] leading-none text-gray-900 font-extrabold font-sans text-center lg:text-5xl
@@ -31,7 +31,7 @@ export const Hero = () => {
          src="/ME.jpg"
          alt="Me"
          width={500}
-         height={500}
+         height={500}  //make the image smaller on smaller screens
          />
         </div>
       </div>
