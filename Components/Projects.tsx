@@ -11,14 +11,14 @@ export const Projects = () => {
             Here are some of my <span className="text-green-500">projects</span>
           </h1>
           <ul className="flex flex-wrap justify-center gap-4 mb-10 p-6 rounded-3xl">
-            <li className="relative lg:mb-4 top-0 left-0 w-[1000px] rounded-3xl group hover:bg-[#1c1d25] hover:opacity-55 transition duration-300 ease-in-out">
+            <li className="relative lg:mb-4 top-0 left-0 lg:w-[1000px] rounded-3xl group hover:bg-[#1c1d25] hover:opacity-55 transition duration-300 ease-in-out">
               <div className="mb-10 rounded-3xl shadow-xl shadow-green-800 h-full">
                 <Image
                   src="/lingo.png"
                   className="w-full h-full rounded-3xl"
                   alt="Lingo"
-                  width={500}
-                  height={500}
+                  width={1000}
+                  height={1000}
                 />
               </div>
               <div className="absolute top-0 left-0 w-full h-full rounded-3xl group-hover:bg-[#1c1d25] group-hover:opacity-55 transition duration-300 ease-in-out">
@@ -46,14 +46,14 @@ export const Projects = () => {
                 </div>
               </div>
             </li>
-            <li className="relative lg:mb-4 top-0 left-0 w-[1000px] rounded-3xl group hover:bg-[#1c1d25] hover:opacity-55 transition duration-300 ease-in-out">
+            <li className="relative lg:mb-4 top-0 left-0 lg:w-[1000px] rounded-3xl group hover:bg-[#1c1d25] hover:opacity-55 transition duration-300 ease-in-out">
               <div className="mb-10 rounded-3xl shadow-xl shadow-green-800 h-full">
                 <Image
                   src="/creations.png"
                   className="w-full h-full rounded-3xl"
                   alt="Lingo"
-                  width={500}
-                  height={500}
+                  width={1000}
+                  height={1000}
                 />
               </div>
               <div className="absolute top-0 left-0 w-full h-full rounded-3xl group-hover:bg-[#1c1d25] group-hover:opacity-55 transition duration-300 ease-in-out">
@@ -81,14 +81,14 @@ export const Projects = () => {
                 </div>
               </div>
             </li>
-            <li className="relative lg:mb-4 top-0 left-0 w-[1000px] rounded-3xl group hover:bg-[#1c1d25] hover:opacity-55 transition duration-300 ease-in-out">
+            <li className="relative lg:mb-4 top-0 left-0 lg:w-[1000px] rounded-3xl group hover:bg-[#1c1d25] hover:opacity-55 transition duration-300 ease-in-out">
               <div className="mb-10 rounded-3xl shadow-xl shadow-green-800 h-full">
                 <Image
                   src="/internship.png"
                   className="w-full h-full rounded-3xl"
                   alt="Lingo"
-                  width={500}
-                  height={500}
+                  width={1000}
+                  height={1000}
                 />
               </div>
               <div className="absolute top-0 left-0 w-full h-full rounded-3xl group-hover:bg-[#1c1d25] group-hover:opacity-55 transition duration-300 ease-in-out">
@@ -116,14 +116,14 @@ export const Projects = () => {
                 </div>
               </div>
             </li>
-            <li className="relative lg:mb-4 top-0 left-0 w-[1000px] rounded-3xl group hover:bg-[#1c1d25] hover:opacity-55 transition duration-300 ease-in-out">
+            <li className="relative lg:mb-4 top-0 left-0 lg:w-[1000px] rounded-3xl group hover:bg-[#1c1d25] hover:opacity-55 transition duration-300 ease-in-out">
               <div className="mb-10 rounded-3xl shadow-xl shadow-green-800 h-full">
                 <Image
                   src="/netflix.png"
                   className="w-full h-full rounded-3xl"
                   alt="Lingo"
-                  width={500}
-                  height={500}
+                  width={1000}
+                  height={1000}
                 />
               </div>
               <div className="absolute top-0 left-0 w-full h-full rounded-3xl group-hover:bg-[#1c1d25] group-hover:opacity-55 transition duration-300 ease-in-out">
