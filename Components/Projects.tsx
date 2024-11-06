@@ -15,7 +15,7 @@ export const Projects = () => {
               <div className="mb-10 rounded-3xl shadow-xl shadow-green-800 h-full overflow-hidden">
                 <Image
                   src="/lingo.png"
-                  className="w-full h-full rounded-3xl group-hover:blur-sm group-hover:scale-110"
+                  className="w-full h-full rounded-3xl group-hover:blur-sm group-hover:scale-110 transition duration-300"
                   alt="Lingo"
                   width={1000}
                   height={1000}
@@ -50,7 +50,7 @@ export const Projects = () => {
               <div className="mb-10 rounded-3xl shadow-xl shadow-green-800 h-full overflow-hidden">
                 <Image
                   src="/creations.png"
-                  className="w-full h-full rounded-3xl group-hover:blur-sm group-hover:scale-110"
+                  className="w-full h-full rounded-3xl group-hover:blur-sm group-hover:scale-110 duration-300"
                   alt="Lingo"
                   width={1000}
                   height={1000}
@@ -85,7 +85,7 @@ export const Projects = () => {
               <div className="mb-10 rounded-3xl shadow-xl shadow-green-800 h-full overflow-hidden">
                 <Image
                   src="/internship.png"
-                  className="w-full h-full rounded-3xl group-hover:blur-sm group-hover:scale-110"
+                  className="w-full h-full rounded-3xl group-hover:blur-sm group-hover:scale-110 duration-300"
                   alt="Lingo"
                   width={1000}
                   height={1000}
@@ -120,7 +120,7 @@ export const Projects = () => {
               <div className="mb-10 rounded-3xl shadow-xl shadow-green-800 h-full overflow-hidden">
                 <Image
                   src="/netflix.png"
-                  className="w-full h-full rounded-3xl group-hover:blur-sm group-hover:scale-110"
+                  className="w-full h-full rounded-3xl group-hover:blur-sm group-hover:scale-110 duration-300"
                   alt="Lingo"
                   width={1000}
                   height={1000}
