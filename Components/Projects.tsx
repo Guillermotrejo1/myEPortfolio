@@ -36,10 +36,10 @@ export const Projects = () => {
                   </p>
                   <div className="mb-2">html, tailwind, stripe, drizzle</div>
                   <div className="absolute flex text-white">
-                    <Link className="mr-4" href="">
+                    <Link className="mr-4 hover:text-green-500" href="https://github.com/Guillermotrejo1">
                       <FaGithub />
                     </Link>
-                    <Link className="mr-4" href="">
+                    <Link className="mr-4 hover:text-green-500" href="https://lingo-lemon.vercel.app/">
                       <FaLink />
                     </Link>
                   </div>
@@ -71,10 +71,10 @@ export const Projects = () => {
                   </p>
                   <div className="mb-2">html, tailwind, stripe, drizzle</div>
                   <div className="absolute flex text-white/90">
-                    <Link className="mr-4" href="">
+                    <Link className="mr-4 hover:text-green-500" href="https://github.com/Guillermotrejo1">
                       <FaGithub />
                     </Link>
-                    <Link className="mr-4" href="">
+                    <Link className="mr-4 hover:text-green-500" href="https://liss-party.vercel.app/">
                       <FaLink />
                     </Link>
                   </div>
@@ -106,10 +106,10 @@ export const Projects = () => {
                   </p>
                   <div className="mb-2">html, tailwind, stripe, drizzle</div>
                   <div className="absolute flex text-white/90">
-                    <Link className="mr-4" href="">
+                    <Link className="mr-4 hover:text-green-500" href="https://github.com/Guillermotrejo1">
                       <FaGithub />
                     </Link>
-                    <Link className="mr-4" href="">
+                    <Link className="mr-4 hover:text-green-500" href="https://guillermo-internship.vercel.app/">
                       <FaLink />
                     </Link>
                   </div>
@@ -141,10 +141,10 @@ export const Projects = () => {
                   </p>
                   <div className="mb-2">html, tailwind, stripe, drizzle</div>
                   <div className="absolute flex text-white/90">
-                    <Link className="mr-4" href="">
+                    <Link className="mr-4 hover:text-green-500" href="https://github.com/Guillermotrejo1">
                       <FaGithub />
                     </Link>
-                    <Link className="mr-4" href="">
+                    <Link className="mr-4 hover:text-green-500" href="https://netflix-clone-snowy-five.vercel.app/">
                       <FaLink />
                     </Link>
                   </div>

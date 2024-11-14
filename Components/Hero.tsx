@@ -15,24 +15,44 @@ export const Hero = () => {
             <span className="text-green-500">Hey,</span> Im Guillermo
           </h1>
           <p className="max-w-xl text-center text-gray-500 lg:text-left lg:max-w-md lg:text-2xl mb-4">
-            Im a <span className="text-green-500">Frontend Software Engineer</span> with a strong passion for building
-            web applications with great user experiences. Here&apos;s a bit more
+            Im a{" "}
+            <span className="text-green-500">Frontend Software Engineer</span>{" "}
+            with a strong passion for building web applications with great user
+            experiences. Here&apos;s a bit more
             <span className="text-green-500"> about me</span>.
           </p>
           <div className="flex text-xl gap-4 text-white">
-            <Link className="bg-green-500 p-2 rounded-lg" href="https://github.com/Guillermotrejo1"><FaGithub/></Link>
-            <Link className="bg-green-500 p-2 rounded-lg" href="https://www.linkedin.com/in/guillermo-trejo-8a5797318"><FaLinkedin/></Link>
-            <Link className="bg-green-500 p-2 rounded-lg" href=""><FaFilePdf /></Link>
+            <Link
+              className="bg-green-500 p-2 rounded-lg"
+              href="https://github.com/Guillermotrejo1"
+            >
+              <FaGithub />
+            </Link>
+            <Link
+              className="bg-green-500 p-2 rounded-lg"
+              href="https://www.linkedin.com/in/guillermo-trejo-8a5797318"
+            >
+              <FaLinkedin />
+            </Link>
+            <Link
+              className="bg-green-500 p-2 rounded-lg"
+              href="https://docs.google.com/document/d/e/2PACX-1vQMSExjiNQFXxpHepw-ewtbiGfAgzM19otoshsHj9V2wvHdiGPqw8vCsoXOOGjvxJBX0bwBcW5hy6se/pub?embedded=true"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="View Resume"
+            >
+              <FaFilePdf />
+            </Link>
           </div>
         </div>
         <div className="lg:w-1/2">
-        <Image 
-         className="ml-4 rounded-full aspect-square"
-         src="/ME.jpg"
-         alt="Me"
-         width={500}
-         height={500}  //make the image smaller on smaller screens
-         />
+          <Image
+            className="ml-4 rounded-full aspect-square"
+            src="/ME.jpg"
+            alt="Me"
+            width={500}
+            height={500} //make the image smaller on smaller screens
+          />
         </div>
       </div>
     </section>
